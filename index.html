@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym_RAPR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Gym_RAPR</div>
+        <nav class="navbar">
+            
+            <button class="animated-button2" onclick="scrollToSection('services')">Servicios</button>
+            <button class="animated-button2" onclick="scrollToSection('Horario')">Horaio</button>
+            <button class="animated-button2" onclick="scrollToSection('plans')">Planes</button>
+            <button class="animated-button2" onclick="scrollToSection('contact')">Contactanos</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>¡Deja de ser un Flacow brazo de 35 en este gimnasio!</h1>
+        <p>El lugar ideal para ser un campe¿+on hijo de sizz.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Servicios</h2>
+        <div class="services-grid">
+        <div class="hover-box">
+          <div class="default-text"><h2>Zona de Pesas</h2></div>
+          <div class="hover-text"><p>Equipos modernos para entrenamientos de fuerza.</p></div>
+      </div>
+      <div class="hover-box">
+        <div class="default-text"><h2>Clases Grupales</h2></div>
+        <div class="hover-text">Yoga, Zumba, CrossFit si le tiras al otro bando y más actividades para ti</div>
+    </div>
+    <div class="hover-box">
+      <div class="default-text"><h2>Couch Personal</h2></div>
+      <div class="hover-text">Planes a medida con entrenadores certificados</div>
+  </div>
+    </section>
+
+    <section id="Horario" class="section">
+        <h2>Horarios</h2>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Apertura</th>
+                    <th>Cierre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes a Viernes</td>
+                    <td>6:00 AM</td>
+                    <td>10:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>7:00 AM</td>
+                    <td>8:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>8:00 AM</td>
+                    <td>6:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="plans" class="section">
+        <h2>Planes de Suscripción</h2>
+        <div class="plans-grid">
+          <div class="hover-box">
+            <div class="default-text"><h3>Plan Flacow</h3></div>
+            <div class="hover-text"><p>$250/mes</p>
+                                    <p>Acceso a gimnasio y pesas.</p></div>
+        </div>
+        <div class="plans-grid">
+          <div class="hover-box">
+            <div class="default-text"><h3>Plan Mamado</h3></div>
+            <div class="hover-text"><p>$400/mes</p>
+                                    <p>Acceso a gimnasio y pesas.</p>
+                                    <p>Acceso a todas las áreas y clases grupales.</p>
+                                  </div>
+        </div>
+        <div class="plans-grid">
+          <div class="hover-box">
+            <div class="default-text"><h3>Plan Ronie</h3></div>
+            <div class="hover-text"><p>$600/mes</p>
+                                    <p>Todo lo anterio</p>
+                                    <p>Entrenamiento personalizado y dieta incluida para que no seas un brazo de 35</p>
+                                  </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Tu Nombre" required>
+            <input type="email" id="email" placeholder="Tu Email" required>
+            <textarea id="message" placeholder="Tu Mensaje" required></textarea>
+            <button class="animated-button" type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
